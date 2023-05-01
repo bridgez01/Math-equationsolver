@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/math.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="header-title-line">
+            <h1> Math Menu</h1>
+            <button class="menu-button">
+                <div class="menu-icon"></div>
+            </button>
+        </section>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="algebra.html">Math Equations</a></li>
+                </ul>
+            </nav>
+    </header>
+    <br>
+        <h2>Mensuration</h2>
+        <br>
+        <br>
+
+        <form id="cylinder">
+            <h4>Area of a cylinder</h4>
+            <input type="number" id="r-cylinder" placeholder="r">
+            <input type="number" name="cyl" id="h-cylinder" placeholder="h">
+            <div id="cylinder-controll">
+                <br>
+                <br>
+                <div id="cylinder-answer"></div>
+                <br>
+                <br>
+                <br>
+                <br> 
+                <button type="submit" id="cylinder-btn">Return area</button>
+            </div>
+        </form>
+            <br>
+            <br>
+        <form id="cone">
+            <h4>Area of a cone</h4>
+            <input type="number" id="r-cone" placeholder="r">
+            <input type="number" name="cone" id="l" placeholder="l">
+            <div id="cone-controll">
+                <br>
+                <br>
+                <div id="coned"></div>
+                <br>
+                <br>
+                <br>
+                <br> 
+                <button type="submit" id="cone-btn">Return area</button>
+            </div>
+        </form>
+    <script src="/scripts/mensuration.js"></script>
+</body>
+</html>

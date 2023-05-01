@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/math.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header>
+        <section class="header-title-line">
+            <h1> Math Menu</h1>
+            <button class="menu-button">
+                <div class="menu-icon"></div>
+            </button>
+        </section>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mensuration.html">Mensuration</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="sim-cont">
+    <form id="simultaenous"> Simultaenous Equation
+        <div class="simcontroll">
+            <input type="number" class="sim-input" placeholder="a" id="a-sim">
+            <input type="number" class="sim-input" placeholder="b" id="b-sim">
+            <input type="number" class="sim-input" placeholder="c" id="c-sim">
+            <input type="number" class="sim-input" placeholder="d" id="d-sim">
+            <input type="number" class="sim-input" placeholder="e" id="e-sim">
+            <input type="number" class="sim-input" placeholder="f" id="f-sim">
+            <br>
+            <br>
+        </div>
+
+        <div class="simcontrol"> 
+            <br>
+            <br>
+            <div id="sim-answer"></div>
+                <br>
+                <br>
+            <button type="submit" id="simButton">Return X and Y</button>
+        </div>
+    </form>
+    </div>
+
+    <div class="quad-cont">
+        <form id="quadratic">Quadratic Equation
+            <div class="quad-controll">
+                <input type="number" class="quad-input" placeholder="a" id="a-quad">
+                <input type="number" class="quad-input" placeholder="b" id="b-quad">
+                <input type="number" class="quad-input" placeholder="c" id="c-quad">
+            </div>
+    
+            <div class="quad-control">
+                <br>
+                <br>
+                <div id="quad-answer"></div>
+                <br>
+                <div id="quad-answer2"></div>
+                <br>
+                <br>
+                <br>
+                <button type="submit" id="quad-btn">Return X1 and X2</button>
+            </div>
+        </form>
+        </div>
+
+        <br>
+        
+    <script src="/scripts/algebra.js"></script>
+</body>
+</html>
